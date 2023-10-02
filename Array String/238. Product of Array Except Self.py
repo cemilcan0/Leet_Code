@@ -5,6 +5,7 @@ class Solution:
         n = len(nums)
         array = [1] * n
         left = right = 1
+        
         for i in range(n):
             array[i] *= left
             left *= nums[i]
